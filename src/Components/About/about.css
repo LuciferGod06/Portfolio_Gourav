@@ -10,10 +10,7 @@
     padding-right: 10px;
     
 }
-.about_Top img {
-    width: 200px;
-    border-radius: 5px;
-}
+
 .about_Top button{
     padding: 13px 4%;
     position: relative;
@@ -47,4 +44,51 @@
     font-weight: 400;
   
   }
+
+  /* for boder try rotate  */
   
+
+  .Image_Div{
+    /* background:lightblue; */
+    position: relative;
+    width: 260px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .Image_Div::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: #00abf0;
+    animation: animate 5s linear infinite;
+
+  }
+
+.Image_Div::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #081b29;
+    border-radius: 20px;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+  .Image_Div > img {
+    width: 220px;
+    border-radius: 3%;
+    position: relative;
+    z-index: 1;
+}

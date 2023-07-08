@@ -56,3 +56,8 @@
     align-items: center;
 
 }
+.main_Contact > div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

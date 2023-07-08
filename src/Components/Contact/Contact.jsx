@@ -49,7 +49,7 @@ export const Contact = () => {
           </div>
         </div>
         <div>
-          <img width={"700px"} src="https://www.techuz.com/blog/wp-content/uploads/2018/08/How-to-hire-web-developers-from-India.gif" alt="" />
+          <img width={"730px"} src="https://www.techuz.com/blog/wp-content/uploads/2018/08/How-to-hire-web-developers-from-India.gif" alt="" />
         </div>
       </div>
     </div>
