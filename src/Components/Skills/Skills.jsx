@@ -9,6 +9,7 @@ import js from "./image/js.png";
 import netlify from './image/download.png'
 import java from './image/java.jpg'
 import './skills.css'
+import charka from './image/images.jpeg'
 
 
 export const Skills = () => {
@@ -44,6 +45,9 @@ export const Skills = () => {
         </div>
         <div><img src={netlify} alt="netlify" />
           <p>NETLIFY</p>
+        </div>
+        <div><img src={charka} alt="netlify" />
+          <p>CHAKRA UI</p>
         </div>
       </div>
     </div>
