@@ -26,7 +26,7 @@ export const Projects = () => {
           </div>
           <div>
             <h1>Bialetti</h1>
-            <p>Bialetti Italia is a captivating web application that pays homage to the renowned Italian brand, Bialetti, famous for its exceptional coffee machines, cookware, and small kitchen appliances. Developed as a clone website, this project seamlessly replicates the essence and functionality of the original Bialetti Industries website.</p>
+            <p>Bialetti Italia is a captivating web application that pays homage to the renowned Italian brand, Bialetti, famous for its exceptional coffee machines, cookware, and small kitchen appliances.</p>
             <h4>Tech Stack :</h4>
             <div className='projectSkills' >
               <img src={react} alt="react" />
