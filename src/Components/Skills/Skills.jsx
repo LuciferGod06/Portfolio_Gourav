@@ -15,6 +15,7 @@ export const Skills = () => {
   return (
     <div id='skills' style={{ padding: "5% 10% 2% 10%", textAlign: "left" }} >
       <h1 style={{marginBottom:"0"}} >Skills </h1>
+      <div style={{borderBottom:"2px solid #00abf0",width:"60px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
       <p style={{marginTop:"0"}}>What I know</p>
       <div className='icon_Div' >
         <div><img src={html5} alt="csa" />

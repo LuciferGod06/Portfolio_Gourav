@@ -1,6 +1,7 @@
 
 import image4 from '../Home/image4.jpg'
 import '../About/about.css'
+import image3 from '../Home/image3.png'
 
 
 export const About = () => {
@@ -8,10 +9,11 @@ export const About = () => {
   return (
     <div id='about' style={{ padding: "50px 10% 0 10%" }}>
       <h1 style={{ textAlign: "left", marginBottom: "0px" }} >About Me</h1>
+      <div style={{borderBottom:"2px solid #00abf0",width:"110px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
       <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >My Introduction</p>
       <div className='about_Top' >
         <div className='Image_Div'>
-          <img className='image' src={image4} alt="ProfilePicx" />
+          <img className='image' src={image3} alt="ProfilePicx" />
         </div>
         <div >
           <h1 >Gourav Prasad</h1>

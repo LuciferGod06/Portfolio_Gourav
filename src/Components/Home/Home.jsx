@@ -5,6 +5,7 @@ import { FaGithub, FaSquareTwitter, FaLinkedin, FaDiscord } from "react-icons/fa
 import image3 from './image3.png'
 import image4 from './image4.jpg'
 
+
 export const Home = () => {
   const element = useRef(null);
 

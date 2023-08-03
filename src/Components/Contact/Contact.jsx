@@ -12,6 +12,7 @@ export const Contact = () => {
   return (
     <div  id='contact' >
       <h1  >Contact Me</h1>
+      <div style={{borderBottom:"2px solid #00abf0",width:"120px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
       <p>Let's Talk</p>
       <div className='main_Contact' >
         <div className='start_Div' >
@@ -49,7 +50,7 @@ export const Contact = () => {
           </div>
         </div>
         <div>
-          <img width={"730px"} src="https://www.techuz.com/blog/wp-content/uploads/2018/08/How-to-hire-web-developers-from-India.gif" alt="" />
+          <img width={"730px"} src="https://www.techuz.com/blog/wp-content/uploads/2018/08/How-to-hire-web-developers-from-India.gif" alt="COntact_Pic" />
         </div>
       </div>
     </div>
